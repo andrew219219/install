@@ -32,8 +32,7 @@ function unzipPackage() {
 function checkTargetExist() {
 	# arg1 is targetFolder
 	targetFolder=$1
-	echo $targetFolder
-	if [[ ! -d $localFullPath ]]; then
+	if [[ -d $targetFolder ]]; then
 		read -p "The target Folder $targetFolder exists. Force install? (y/n)" -n 1 f
 		echo ""
 		if [[ $f"x" == "yx" ]]; then
