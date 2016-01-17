@@ -1,0 +1,11 @@
+" ===========Theme============
+set background=light
+colorscheme molokai
+" ===========Vim==============
+set ts=4
+"============power line======
+" let g:Powerline_symbols = 'fancy'
+set nocompatible
+set laststatus=2
+set encoding=utf-8
+set t_Co=256
