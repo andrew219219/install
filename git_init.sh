@@ -17,7 +17,7 @@ function __main(){
 	git config --global alias.ci commit
 	git config --global alias.co checkout
 	git config --global alias.pl pull
-	git config color.ui true
+	git config --global color.ui true
 }
 
 __main
